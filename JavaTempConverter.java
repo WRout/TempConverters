@@ -20,10 +20,10 @@ public class Main {
         this.fahrenheit = fahrenheit;
     }
     
-	  static public void main (String[] args) {
+    public static void main (String[] args) {
         ClearConsole();
         runProgram();
-	  }
+    }
     
     public static void runProgram() {
         typeInput = new Scanner(System.in);
